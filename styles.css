@@ -236,16 +236,22 @@ main{
     }
 
     main{
-       padding:30px 40px;
-       gap:50px;
+        padding:30px 50px;
+       gap:20px;
+       
+      
       
     }
+    
    
 
     header h1{
       width:fit-content;
       margin-left: -100px;
     
+    }
+    p{
+        font-size: larger;
     }
 }
 
