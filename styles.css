@@ -109,7 +109,8 @@ main{
 
 .part{
     width:100%;
-    min-height:300px;
+    height:300px;
+   
 }
 
 .one{
@@ -118,6 +119,10 @@ padding:10px;
 
 .two{
     object-fit: fill;
+    background-image: url('images/image-hero-mobile.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
 }
 
 .one .title{
@@ -224,6 +229,13 @@ main{
 
 .part{
     width:50%;
+    height:40vw;
+    
+}
+.two{
+    background-image:url('images/image-hero-desktop.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
     font-size: 3em;
